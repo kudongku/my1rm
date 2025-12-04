@@ -1,0 +1,28 @@
+:root {
+  /* ===== 색상 팔레트 ===== */
+  /* 배경색 */
+  --color-bg-primary: #0a192f;
+  /* 프라임 색상 */
+  --color-primary: #f1ad50;
+  --color-primary-inactive: #725732;
+
+  /* ===== 타이포그래피 ===== */
+  /* 폰트 사이즈 */
+  --font-size-s: 0.75rem; /* 12px */
+  --font-size-m: 1.25rem; /* 20px */
+  --font-size-l: 1.875rem; /* 30px */
+
+  /* 폰트 굵기 */
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* ===== 보더 & 라운드 ===== */
+  --border-radius-s: 0.25rem; /* 4px */
+  --border-radius-m: 0.5rem; /* 8px */
+  --border-radius-l: 0.75rem; /* 12px */
+
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --border-width-thick: 3px;
+}

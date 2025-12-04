@@ -76,30 +76,30 @@ my1rm/
 
 ```
 {
-"profile": {
-"theme": "dark", // 'dark' | 'light'
-"lang": "ko" // 'ko' | 'en'
-},
-"records": {
-"squat": {
-"weight": 100,
-"reps": 5,
-"1rm": 116,
-"updatedAt": "2023-10-27T10:00:00Z"
-},
-"bench": {
-"weight": 80,
-"reps": 3,
-"1rm": 88,
-"updatedAt": "2023-10-27T10:05:00Z"
-},
-"deadlift": {
-"weight": null, // 아직 입력 안함
-"reps": null,
-"1rm": 0,
-"updatedAt": null
-}
-}
+    "profile": {
+        "theme": "dark", // 'dark' | 'light'
+        "lang": "ko" // 'ko' | 'en'
+    },
+    "records": {
+        "squat": {
+            "weight": 100,
+            "reps": 5,
+            "1rm": 116,
+            "updatedAt": "2023-10-27T10:00:00Z"
+        },
+        "bench": {
+            "weight": 80,
+            "reps": 3,
+            "1rm": 88,
+            "updatedAt": "2023-10-27T10:05:00Z"
+        },
+        "deadlift": {
+            "weight": null, // 아직 입력 안함
+            "reps": null,
+            "1rm": 0,
+            "updatedAt": null
+        }
+    }
 }
 ```
 
@@ -110,8 +110,8 @@ my1rm/
 - [x] 기획서 작성
 - [x] 피그마 작업
 - [x] 파비콘 및 컬러 팔레트 확정
-- [ ] Git Repo 생성 및 GitHub Pages 설정 (https://github.com/kudongku/my1rm.git)
-- [ ] index.html, variable.css 기본 뼈대 작성
+- [x] Git Repo 생성 및 GitHub Pages 설정 (https://github.com/kudongku/my1rm.git)
+- [x] index.html, variable.css 기본 뼈대 작성
 - [ ] Hello World 페이지 호스팅
 
 ### 2일차, Core 로직 구현
